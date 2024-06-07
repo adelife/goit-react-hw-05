@@ -1,0 +1,29 @@
+.container {
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  
+  .movieId {
+    padding-top: 5px;
+  }
+  
+  .movieDetails {
+    text-decoration: none;
+    color: #0555a4;
+    font-weight: bold;
+  }
+  
+  .movieDetails:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .movieInfo {
+    font-style: italic;
+    color: #999;
+  }
+  
+  
+  ul {
+    list-style-type: disc;
+  }

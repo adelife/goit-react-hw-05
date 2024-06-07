@@ -1,0 +1,57 @@
+.castList {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 24px;
+  }
+  
+  .castsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative; /* Для позиционирования рамки */
+    margin-top: 5px;
+  }
+  
+  .castsItem img {
+    margin-bottom: 12px; /* Отступ между изображением и текстом */
+    width: 150px; /* Начальная ширина изображения */
+  }
+  
+  .actorName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Цвет текста */
+    max-width: 150px; /* Ограничение ширины имени актера */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .characterName {
+    font-size: 16px;
+    color: #666; /* Цвет текста */
+    margin-bottom: 5px;
+  }
+  
+  .castsItem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent; /* Начальная прозрачная рамка */
+    transition: border-color 0.3s; /* Плавный переход цвета рамки */
+  }
+  
+  .castsItem:hover::before {
+    border: 1.5px solid rgb(0, 255, 255); /* Цвет рамки при наведении */
+  }
+  
+  .castsItem:hover {
+    transform: scale(1.1); /* Увеличиваем размер при наведении */
+  }

@@ -1,0 +1,86 @@
+.mainMovieInfo {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .movieScore {
+    margin-bottom: 30px;
+  }
+  
+  .overview {
+    margin-bottom: 30px;
+  }
+  
+  .movieImg {
+    border: 1px solid aqua;
+    width: 280px;
+  }
+  
+  .genres {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addInfo {
+    display: flex;
+  }
+  
+  .addLinks {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+  
+  .infoMessage {
+    font-size: 16px;
+    color: var(--dark-green);
+    text-align: center;
+    margin-bottom: 24px;
+    list-style-type: none;
+  }
+  
+  /* кнопка */
+  
+  .link {
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-weight: 500;
+    background-color: rgb(240, 255, 240);
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: rgb(220, 20, 60);
+  }
+  
+  .linkButton {
+    font-weight: 500;
+    background-color: rgb(240, 255, 240);
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+  
+  .linkButton:hover,
+  .linkButton:focus {
+    color: rgb(220, 20, 60);
+  }
+  
+  .linkButtonContainer {
+    display: flex;
+    gap: 12px;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 26px;
+    list-style-type: none;
+  }
