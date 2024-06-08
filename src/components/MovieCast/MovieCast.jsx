@@ -5,7 +5,7 @@ import css from "./MovieCast.module.css";
 
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
-import defaultImg from "../../assets/image-not-found.png";
+import defaultImg from "./image-not-found.png";
 
 const MovieCast = () => {
   const { movieId } = useParams();
