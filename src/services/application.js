@@ -4,11 +4,11 @@ axios.defaults.baseURL = "https://api.themoviedb.org/3";
 const API_KEY = "5ada1fbf8ecb6f10e35e77359a633f33";
 
 // мой токен
-const TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YWRhMWZiZjhlY2I2ZjEwZTM1ZTc3MzU5YTYzM2YzMyIsInN1YiI6IjY2NWYwMDkxOTYxNThhM2M3ZjlkNjhhZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R4PanBCRArtaWupVLI-y3xIZhlMcVJlAncVEI34cVEE"
+// const TOKEN =
+//   "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YWRhMWZiZjhlY2I2ZjEwZTM1ZTc3MzU5YTYzM2YzMyIsInN1YiI6IjY2NWYwMDkxOTYxNThhM2M3ZjlkNjhhZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R4PanBCRArtaWupVLI-y3xIZhlMcVJlAncVEI34cVEE"
 const options = {
   headers: {
-    Authorization: `Bearer ${TOKEN}`,
+    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1YWRhMWZiZjhlY2I2ZjEwZTM1ZTc3MzU5YTYzM2YzMyIsInN1YiI6IjY2NWYwMDkxOTYxNThhM2M3ZjlkNjhhZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R4PanBCRArtaWupVLI-y3xIZhlMcVJlAncVEI34cVEE",
   },
 };
 
